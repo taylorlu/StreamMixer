@@ -1,0 +1,1 @@
+gcc streamMixer.c cJSON.c -L/usr/local/ludong/lib -I/usr/local/ludong/include -pthread -lavformat -lavfilter -lavcodec -lavutil -lavdevice -lswscale -lswresample -lpostproc -lz -lrt -lm -liconv -lx264 -lfdk-aac -lvpx -std=c99 -o streamMixer

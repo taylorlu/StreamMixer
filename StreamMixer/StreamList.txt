@@ -1,0 +1,25 @@
+{
+    "stream": [
+        {
+            "name": "rtsp://10.200.10.220/live_18.sdp",
+            "layer": 1,
+            "dest_x": 10,
+            "dest_y": 20,
+            "dest_width": 320,
+            "dest_height": 240
+        },
+        {
+            "name": "rtsp://10.200.10.220/live_19.sdp",
+            "layer": 2,
+            "dest_x": 300,
+            "dest_y": 200,
+            "dest_width": 320,
+            "dest_height": 240
+        }
+    ],
+    "out_stream": "rtsp://10.200.10.220/live9.sdp",
+    "final_width": 640,
+    "final_height": 480,
+    "bitrate": 1000000,
+    "fps": 25
+}
